@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main2{
+            border: 0.5px solid;
+            height: 400px;
+            width: 350px;
+            position: absolute;
+            left: 600px;
+            top: 100px;
+        }
+        .txt{
+            position: absolute;
+            left: 85px;
+            top: 100px;
+        }
+        .login{
+            width: 170px;
+            height: 20px;
+            background-color: #405DE6;
+        }
+        .log{
+            position: absolute;
+            top: 0px;
+            left: 110px;
+            font-weight: lighter;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <div class="main2">
+        <h4 class="log" style="font-family:Brush Script MT;">Instagram</h4>  
+    <form class="txt">
+        <label for="user"></label>
+        <input type="text" class="user" name="user" id="user" placeholder="phone number,username or emailaddress"><br><br>
+        <label for="password"></label>
+        <input type="password" class="pass" name="password" id="password" placeholder="password"><br><br>
+        <input type="submit" class="login" name="login" value="login" formaction="./instalogin.html"><br><br>
+
+        <input type="submit" name="forgot" value="       Forgot password ?      " formaction="./instafor.html">
+    </form>
+    </div>
+</body>
+</html>
